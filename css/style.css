@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#base-container {
+    overflow: hidden;
+}
+
+.full-screen {
+    height: 100vh;
+}
+
+#header-container {
+    background: url("../img/header-bg.jpg");
+    box-shadow: 0 5px 10px #000000;
+    flex-direction: column;
+}
+
+#center-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vw 20vw 0 20vw;
+}
+
+#top-line {
+    height: 10px;
+    background:#40aed7;
+}
+
+#head {
+    height: 64px;
+    background: #323232;
+    flex-direction: row;
+}
+
+#nav-bar {
+
+}
+
+.business-card {
+    width: 10vw;
+    height: 16vw;
+    background:#40aed7;
+    box-shadow: 2px 5px 5px #000000;
+}
+
+.news-card {
+    width: 10vw;
+    height: 16vw;
+    background:#40aed7;
+    box-shadow: 2px 5px 5px #000000;
+}
