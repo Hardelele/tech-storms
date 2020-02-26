@@ -10,22 +10,21 @@ div {
 
 #base-container {
     overflow: hidden;
+    flex-direction: column;
 }
 
 .full-screen {
     height: 100vh;
 }
 
+/*
+    Header content
+*/
+
 #header-container {
     background: url("../img/header-bg.jpg");
     box-shadow: 0 5px 10px #000000;
     flex-direction: column;
-}
-
-#center-container {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4vw 20vw 0 20vw;
 }
 
 #top-line {
@@ -41,6 +40,16 @@ div {
 
 #nav-bar {
 
+}
+
+/*
+    Main content
+ */
+
+#center-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vw 20vw 0 20vw;
 }
 
 .business-card {
