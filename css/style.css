@@ -28,6 +28,10 @@ div {
     padding: 4vw 20vw 0 20vw;
 }
 
+#footer-container {
+    height: 20vh;
+}
+
 #top-line {
     height: 10px;
     background:#40aed7;
