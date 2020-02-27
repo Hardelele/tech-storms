@@ -28,10 +28,6 @@ div {
     padding: 4vw 20vw 0 20vw;
 }
 
-#footer-container {
-    height: 20vh;
-}
-
 #top-line {
     height: 10px;
     background:#40aed7;
@@ -60,3 +56,58 @@ div {
     background:#40aed7;
     box-shadow: 2px 5px 5px #000000;
 }
+
+/*
+    Footer
+ */
+
+#footer-container {
+    margin-top: 1vw;
+    height: 40vh;
+    background: #323232;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Georgia, fantasy;
+}
+
+.footer-column {
+    width: 23vw;
+    margin: 1vw 4vw 1vw 1vw;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 3vh 0 2vw 0;
+}
+
+.footer-post {
+    color: #b9b9b9;
+}
+
+.post-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.post-text {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.footer-list {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.list-element {
+    padding: 4px;
+    font-size: 18px;
+    border-bottom: #737373 solid 1px;
+}
+
+.footer-link {
+    color: #40aed7;
+    text-decoration: none;
+}
+
