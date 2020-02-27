@@ -47,6 +47,29 @@ div {
 
 }
 
+#logo-container {
+    flex-direction: row;
+    margin: 2vw;
+}
+
+.logo-text {
+    color: white;
+    text-shadow: 0 5px 5px black;
+    font-family: 'Teko', regular, serif;
+    font-size: 8vw;
+    user-select: none;
+}
+
+.logo-img {
+    margin-top: 3vw;
+    width: 5vw;
+    height: 5vw;
+    filter: invert(1) drop-shadow(0 5px 2px black);
+    background: url("../img/logo-storm.png");
+    background-size: 5vw;
+    user-select: none;
+}
+
 /*
     Main content
  */
