@@ -109,11 +109,14 @@ div {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 1vw;
+    border-bottom: #737373 solid 1px;
 }
 
 .nc-content {
     height: 12vw;
-    background: #dcdcdc;
+    overflow: hidden;
+    margin: 10px 0 10px 0;
+    text-overflow: ellipsis;
 }
 
 .nc-details {
