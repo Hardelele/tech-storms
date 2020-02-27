@@ -85,12 +85,56 @@ div {
     justify-content: space-between;
 }
 
+/*
+    Business Cards
+ */
+
 .business-card {
+    flex-direction: column;
+    justify-content: space-around;
     width: 10vw;
     height: 16vw;
     background:#40aed7;
     box-shadow: 2px 5px 5px #000000;
 }
+
+.business-img {
+    margin: 0.5vw;
+    width: 9vw;
+    height: 9vw;
+}
+
+.business-text {
+    font-family: 'Teko', regular, serif;
+    font-size: 2.8vw;
+    line-height: 2.2vw;
+    text-align: center;
+    color: white;
+}
+
+#cooperation {
+    background: url("../img/coop.png");
+    background-size: 9vw;
+}
+
+#appreciate {
+    background: url("../img/heart.png");
+    background-size: 9vw;
+}
+
+#leaders {
+    background: url("../img/first.png");
+    background-size: 9vw;
+}
+
+#innovators {
+    background: url("../img/innovation.png");
+    background-size: 9vw;
+}
+
+/*
+    News Posts
+ */
 
 #news-title {
     font-family: "Roboto Light", serif;
