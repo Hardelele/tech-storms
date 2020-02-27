@@ -1,3 +1,8 @@
+
+/*
+    All document
+ */
+
 body {
     margin: 0;
     padding: 0;
@@ -10,22 +15,21 @@ div {
 
 #base-container {
     overflow: hidden;
+    flex-direction: column;
 }
 
 .full-screen {
     height: 100vh;
 }
 
+/*
+    Header content
+*/
+
 #header-container {
     background: url("../img/header-bg.jpg");
     box-shadow: 0 5px 10px #000000;
     flex-direction: column;
-}
-
-#center-container {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4vw 20vw 0 20vw;
 }
 
 #top-line {
@@ -43,6 +47,21 @@ div {
 
 }
 
+/*
+    Main content
+ */
+
+#center-container {
+    flex-direction: column;
+    padding: 0 20vw 0 20vw;
+}
+
+.cards-container {
+    margin-top: 2vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .business-card {
     width: 10vw;
     height: 16vw;
@@ -50,11 +69,35 @@ div {
     box-shadow: 2px 5px 5px #000000;
 }
 
+#news-title {
+    font-family: "Roboto Light", serif;
+    font-size: 6vw;
+    margin: 2vw auto 0 auto;
+}
+
 .news-card {
     width: 10vw;
     height: 16vw;
-    background:#40aed7;
-    box-shadow: 2px 5px 5px #000000;
+    flex-direction: column;
+}
+
+.nc-title {
+    height: 1vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1vw;
+}
+
+.nc-content {
+    height: 12vw;
+    background: #dcdcdc;
+}
+
+.nc-details {
+    height: 2vw;
+    margin-top: 2px;
+    margin-left: auto;
+    font-size: 1vw;
 }
 
 /*
@@ -110,4 +153,3 @@ div {
     color: #40aed7;
     text-decoration: none;
 }
-
